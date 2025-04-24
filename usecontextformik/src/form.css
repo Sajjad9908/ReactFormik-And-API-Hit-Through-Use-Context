@@ -1,0 +1,149 @@
+.div-1{
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.div-1 h1{
+    font-size: 43px;
+    color: white;
+    text-align: center;
+
+}
+.form{
+  
+    width: 70%;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+.form p{
+    text-align: center;
+    font-size: 32px;
+   
+}
+.gender2 input{
+    width: 3%;
+    margin-left: 14px;
+   
+    font-size: 16px;
+ 
+}
+.gender2 label{
+    font-size: 22px;
+
+
+
+}
+.gender2{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 17px;
+
+}
+.btn{
+    width: 100%;
+    height:40px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+.btn:hover{
+    background-color: rgb(232, 21, 21);
+}
+.name{
+    position: relative;
+}
+.input-errors{
+    border: 2px solid red;
+    color: #E53935;
+
+}
+.input-errors::placeholder{
+    color: #E53935;
+}
+.error-msg{
+    color: #E53935;
+}
+.Email{
+    position: relative;
+}
+.password{
+    position: relative;
+}
+.country{
+    position: relative;
+}
+.error{
+    left: 213px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 6px;
+    width: 305px;
+    position: absolute;
+    top: 35px;
+    border: 2px solid rgb(243, 235, 235);
+    color: red;
+    z-index: 1;
+    height: 25px;
+    background: #E53935;
+    color: white;
+   
+
+}
+.error::after{
+    
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.gender2 .error {
+    width: 152px;
+    top: 37px;
+    height: 22px;
+    
+}
+.gender2 .error::after{
+        content: "";
+        position: absolute;
+        top: -42%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+        transform: rotate(180deg);
+    }
