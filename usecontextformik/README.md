@@ -1,12 +1,31 @@
-# React + Vite
+# React Form Validation & API Integration with Context
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates two key features in React:
+1. **Formik + Yup form validation**
+2. **React Context API usage for global state management and API integration**
 
-Currently, two official plugins are available:
+## 📁 Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ User-friendly form with validation (Formik + Yup)
+- 🛡️ Real-time error handling and red borders for invalid fields
+- 🌍 Global state management with React Context
+- 🌐 Data fetching from API using `useContext` and `useEffect`
+- 💾 Form data stored in `localStorage` upon submission
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Technologies Used
+
+- React
+- Formik
+- Yup
+- React Context API
+- JavaScript (ES6+)
+- CSS
+
+## 📦 How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-formik-context.git
